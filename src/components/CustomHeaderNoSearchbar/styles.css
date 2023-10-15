@@ -1,0 +1,42 @@
+/*
+ * Export css file for custom header menu
+ */
+.nav-menu-links, .nav-menu-links:hover {
+  position: relative;
+  margin: 0 auto;
+  top: 15px;
+  left: 400px;
+  margin: 30px;
+  padding-left: 60px;
+  border-left: 1px lightgreen solid;
+  text-decoration: none;
+}
+
+.nav-menu-links {
+  color: #F5F5F5;
+}
+
+.nav-menu-links:hover {
+  color: lightgreen;
+}
+
+#nav-menu-logo {
+  color: #F5F5F5;
+  position: relative;
+  top: 20px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+#navbar {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  margin: 0 auto;
+  background-color: black;
+  float: right;
+}
+
+.div-clear {
+  clear: both;
+}

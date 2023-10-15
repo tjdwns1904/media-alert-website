@@ -1,0 +1,19 @@
+.ui.sortable.table thead th.descending:after,
+.ui.sortable.table thead th.ascending:after {
+    display: block;
+    width: 10%;
+    float: right;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+i.sort.icon.sort-icon {
+  display: block;
+  width: 10%;
+  float: right;
+  padding-right: 12px;
+}
+
+.ui.table tfoot tr:first-child>th:only-child {
+  text-align: center;
+}

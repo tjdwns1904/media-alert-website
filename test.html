@@ -1,0 +1,34 @@
+
+<script>
+
+
+
+function FirstReverse(str) { 
+    
+      var temp = ''
+      var len = str.length
+      var a = str.split('')
+      
+      for(var i=0; i<str.length/2; i++){
+          temp =a[i]
+
+          console.log(str.charAt(len-i-1))
+
+
+         a[i] = a[len-i-1]
+         a[len-i-1] = temp 
+      }
+      // code goes here  
+      return a.join(''); 
+             
+    }
+       
+      
+                           
+    
+    // keep this function call here 
+    console.log(  FirstReverse('abc')  )                      
+    
+
+
+</script>

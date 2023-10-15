@@ -1,0 +1,122 @@
+/*
+ * Export css file for custom header menu
+ */
+#navbar {
+  width: 100%;
+  height: 60px;
+  position: relative;
+  margin: 0 auto;
+  background-color: #242424;
+}
+
+#nav-menu-logo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  width: 30%;
+  line-height: 60px;
+  height: 100%;
+  color: #F5F5F5;
+  font-size: 2.5rem;
+  padding-left: 30px;
+  text-decoration: none;
+  font-family: cursive;
+  color: #71B9B5;
+  margin: 0;
+}
+
+#nav-header-menu {
+  width: 70%;
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.nav-menu-links, .nav-menu-links:hover, .nav-menu-links.active  {
+  margin: 0 auto;
+  float: right;
+  padding: 20px;
+  /* border: 1px #7DA2A9 solid; */
+  border: none;
+  color: #7DA2A9;
+  text-decoration: none;
+}
+
+.nav-menu-links:hover, .nav-menu-links.active {
+  border-bottom: 1px solid #71B9B5;
+  background-color: #71B9B5;
+  color: #242424 !important;
+}
+
+.ui.icon.input.search-bar-list>input {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid #242424;
+  background-color: transparent;
+  color: #242424;
+}
+
+
+.ui.icon.input.search-bar-list>input:hover::-webkit-input-placeholder,
+.ui.icon.input.search-bar-list>input:active::-webkit-input-placeholder,
+.search.icon,
+.ui.icon.input.search-bar-list>input:hover,
+.ui.icon.input.search-bar-list>input:active {
+  color: #7DA2A9 ;
+}
+
+.ui.icon.input.search-bar-list>input:hover,
+.ui.icon.input.search-bar-list>input:active {
+  border-bottom: 1px solid #71B9B5;
+}
+
+
+.div-clear {
+  clear: both;
+}
+
+.below-nav-bar {
+  position: relative;
+  margin: 0 auto;
+  top: 10px;
+}
+
+.button-options-list-grid {
+  position: relative;
+  margin: 0 auto;
+  top: 10px;
+}
+
+.ui.icon.input.search-bar-list {
+  display: block;
+  float: right;
+}
+
+.main-page {
+  margin: 50px;
+  padding: 10px 50px;
+}
+
+.pagination-search, .switch-list-grid {
+  position: relative;
+  margin: 5px 14%;
+}
+
+button.ui.large.button.button-group-switch {
+  display: block;
+  float: right;
+  padding-right: 0;
+  margin-right: 0;
+}
+
+/* Reponsive */
+/* 
+@media screen and (max-width: 1400px) {
+  #nav-header-menu, .nav-menu-links {
+    display: none;
+  }
+} */

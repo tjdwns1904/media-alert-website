@@ -1,0 +1,9 @@
+/*
+ * style of grid components
+*/
+.main-grid {
+  width: 300;
+  float: 'left';
+  padding-left: 40;
+  padding-top: 10;
+}

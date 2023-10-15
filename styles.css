@@ -1,0 +1,148 @@
+/*
+  STYLE OF APP
+*/
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #F5F5F5 !important;
+  overflow: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#app {
+  overflow-x: hidden;
+}
+
+#app-body {
+  display: block;
+  width: 80%;
+  margin: 20px auto;
+}
+
+a {
+  color: #7DA2A9 !important;
+  text-decoration: none;
+}
+
+input {
+  border-radius: 0 !important;
+}
+
+a:hover {
+  color: #71B9B5 !important;
+  text-decoration: none;
+}
+
+a.link-to-detail-page {
+  display: block;
+  width: 100%;
+  height: 90%;
+  margin: 5% auto;
+}
+
+.ui.top.attached.tabular.menu .item {
+  width: 50%;
+}
+
+.home-carousel-item {
+  width: 18%;
+  height: 300px;
+  float: left;
+  margin-right: 2%;
+}
+
+.ui.segment.segment-home-page {
+  background-color: transparent;
+  border-radius: 0;
+  height: 100%;
+  width: 80%;
+  margin: 0 auto;
+}
+
+img.ui.image.home-carousel-item-image {
+  margin: 0 auto;
+  height: 100%;
+  width: 80%;
+}
+
+.home-carousel-item:hover img.ui.image.home-carousel-item-image {
+  transform: scale(1.2);
+  filter:drop-shadow(8px 8px 10px gray);
+}
+
+.ui.center.aligned.container {
+  background-color: transparent;
+}
+
+.ui.card.card-news {
+  width: 100%;
+  height: inherit;
+  margin-bottom: 30px;
+  background-color: transparent;
+}
+
+.ui.center.aligned.container.homenews {
+  width: 80% !important;
+  margin: 20px auto !important;
+  padding: 0px !important;
+  height: 600px !important;
+}
+
+.ui.card.card-post-article {
+  width: 70%;
+  margin: 0 auto;
+  padding: 30px;
+  color: #242424;
+}
+
+.ui.card.card-post-article label {
+  /* color: #71B9B5; */
+  color: #242424;
+}
+.ui.card.card-post-article h1 {
+  color: #71B9B5;
+}
+
+.ui.card.card-post-article button {
+  background-color: #71B9B5;
+  color: #242424;
+}
+
+input#photo {
+  background-color: #71B9B5;
+  border: 0;
+  padding: 0;
+  border-radius: 0;
+}
+
+.map-body > div {
+  position: relative !important;
+  height: 700px !important;
+}
+
+.map-body > div > div {
+  height: inherit !important;
+}
+
+.ui.green.card.card-news-detail {
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.ui.green.card.card-news-detail h1 {
+  color: #71B9B5;
+}
+
+.ui.green.card.card-news-detail h2 {
+  color: #242424;
+}
+
+.ui.green.card.card-news-detail img {
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #7DA2A9;
+}
